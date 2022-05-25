@@ -1,0 +1,5 @@
+@varNameA = 1
+@varNameB = -2
+@varNameC = -0.67 * (varA / varB)
+
+@someResultVariableName = varA + (varB - varC) * 10
