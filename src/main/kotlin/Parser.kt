@@ -1,13 +1,12 @@
 import Tokenizer.Companion.Token
 import Tokenizer.Companion.TokenType
-import java.io.File
 
 class Parser {
   companion object {
 
     val assignments = mutableMapOf<String, List<Token>>()
 
-    fun fecthUnaries(tokens: List<Token>): MutableList<Token> {
+    fun fetchUnaries(tokens: List<Token>): MutableList<Token> {
       val nextTokens = mutableListOf<Token>()
       var lastUnary: Token? = null
 

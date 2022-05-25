@@ -8,7 +8,7 @@ fun main() {
     .split("\n")
 
   input.forEach {
-    val statementTokens = Parser.fecthUnaries(Tokenizer.tokenize(it))
+    val statementTokens = Parser.fetchUnaries(Tokenizer.tokenize(it))
     if (statementTokens.isNotEmpty()) {
       Parser.parseStatement(statementTokens)
     }
