@@ -27,4 +27,5 @@ The language/tool is not finished. Currently, was done
 
 # Notes
 
-- This language/tool is being written using Kotlin.
+- This language/tool is being written using Kotlin;
+- Aims to be built without using `Regex` approach. This means that all tokenizing algorithms are developed by _char-by-char_ iterations.
